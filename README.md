@@ -16,10 +16,10 @@ Download this add-on from Github Release page.
 
 - BPM: Enter the BPM.
 - Note: Enter the type of notes. For example, input 4 for quarter notes and 8 for eighth notes.
-- Remove existing markers: Check this box to delete all markers.
+- Remove existing markers: Check this box to delete added markers.
 
 > [!WARNING]
-> If you check "Remove existing markers", all markers will be deleted first, and then new markers will be added according to the specified method. Therefore, please be cautious if there are any other markers.
+> If you check "Remove existing markers", all markers with names consisting of five words, with the second word being '+' and the fourth word being '/', will be deleted first, and then new markers will be added according to the specified method. Therefore, please be cautious if there are any other markers.
 
 ## License
 Distributed under the [GPLv3](LICENSE) License.

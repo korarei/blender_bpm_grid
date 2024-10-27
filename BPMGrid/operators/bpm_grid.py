@@ -26,11 +26,14 @@ class TIME_OT_CreateBPMGrid(bpy.types.Operator):
         current_frame = st
 
         if ck_remove:
-            scene.timeline_markers.clear()
+            for marker in scene.timeline_markers:
+                marker_lst = marker.name.split(' ')
+                if len(marker_lst) == 5 and marker_lst[1] == '+' and marker_lst[3] == '/':
+                    scene.timeline_markers.remove(marker)
 
 
         while ceil(current_frame) < ed:
-            scene.timeline_markers.new(str(count[0]) + " + " + str(count[1]) + " / " + str(note), frame = ceil(current_frame))
+            scene.timeline_markers.new(f"{count[0]} + {count[1]} / {note}", frame = ceil(current_frame))
     
             if count[1] == note:
                 count[0] += 1

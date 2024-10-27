@@ -45,14 +45,14 @@ def init_props():
         name = "BPM",
         description = "Set the BPM",
         default = 165,
-        min = 0.0,
+        min = 0.1,
         max = 2048.0
     )
     scene.BG_note = IntProperty(
         name = "Note",
         description = "Set the note. For example, input 4 for quarter notes and 8 for eighth notes.",
         default = 16,
-        min = 0,
+        min = 1,
         max = 1024
     )
     scene.BG_ck_remove = BoolProperty(
