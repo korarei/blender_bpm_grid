@@ -25,5 +25,8 @@ Download this add-on from Github Release page.
 Distributed under the [GPLv3](LICENSE) License.
 
 ## Change Log 
+- **v1.0.1**
+  - Improve the delete function
+
 - **v1.0.0**
   - relase
