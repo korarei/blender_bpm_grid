@@ -1,5 +1,5 @@
 # blender_bpm_grid
-This addon creates a BPM grid on the timeline. The user can select the type of notes, the BPM, and whether to delete existing markers.
+This add-on creates a BPM grid on the timeline. The user can select the type of notes, the BPM, and whether to delete existing markers.
 
 ## Download
 Download this add-on from Github Release page.
@@ -29,4 +29,4 @@ Distributed under the [GPLv3](LICENSE) License.
   - Improve the delete function
 
 - **v1.0.0**
-  - relase
+  - release
