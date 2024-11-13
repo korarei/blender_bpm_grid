@@ -12,7 +12,8 @@ Download this add-on from Github Release page.
 ## Usage
 1. Open the 3D viewport UI (displayed by pressing the 'N' key). The panel of this add-on is in it.
 2. Open the "BPM Grid" tab.
-3. Click the "Create" button.
+3. Enter the bar range and click the "Apply" button.
+4. Click the "Create" button.
 
 - BPM: Enter the BPM.
 - Note: Enter the type of notes. For example, input 4 for quarter notes and 8 for eighth notes.
@@ -20,6 +21,9 @@ Download this add-on from Github Release page.
 
 > [!WARNING]
 > If you check "Remove existing markers", all markers with names consisting of five words, with the second word being '+' and the fourth word being '/', will be deleted first, and then new markers will be added according to the specified method. Therefore, please be cautious if there are any other markers.
+
+- Bar Start: First bar of the rendering range.
+- Bar End: Final bar of the rendering range.
 
 ## License
 Distributed under the [GPLv3](LICENSE) License.
