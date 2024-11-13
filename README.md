@@ -25,8 +25,12 @@ Download this add-on from Github Release page.
 Distributed under the [GPLv3](LICENSE) License.
 
 ## Change Log 
+- **v1.1.0**
+  - Add a function to delete only the grid when Note = 0.
+  - Add a function to calculate the output range based on the bar number.
+
 - **v1.0.1**
-  - Improve the delete function
+  - Improve the delete function.
 
 - **v1.0.0**
-  - release
+  - Release
